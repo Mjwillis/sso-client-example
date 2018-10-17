@@ -1,6 +1,6 @@
 buildscript {
     ext {
-        springBootVersion = '2.0.4.RELEASE'
+        springBootVersion = '2.0.5.RELEASE'
     }
     repositories {
         jcenter()
@@ -27,8 +27,8 @@ repositories {
 }
 
 group = 'uk.gov.justice.digital'
-project.sourceCompatibility = 10
-project.targetCompatibility = 10
+project.sourceCompatibility = 11
+project.targetCompatibility = 11
 
 springBoot {
 }
