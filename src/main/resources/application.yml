@@ -8,7 +8,7 @@ security:
       clientId: omicuser
       clientSecret: mysecretpassword
       accessTokenUri: https://nomis-oauth2-server.herokuapp.com/auth/oauth/token
-      userAuthorizationUri: https://nomis-oauth2-server.herokuapp.com/auth/oauth/authorizevi
+      userAuthorizationUri: https://nomis-oauth2-server.herokuapp.com/auth/oauth/authorize
     resource:
         userInfoUri: https://nomis-oauth2-server.herokuapp.com/auth/api/user/me
 spring:
